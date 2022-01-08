@@ -9,11 +9,12 @@
    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
    <link rel="stylesheet" href="css/font.css">
    <link rel="stylesheet" href="css/slick.css">
-   <link rel="stylesheet" href="css/style.min.css">
+   <link rel="stylesheet" href="css/animate.css">
+   <link rel=" stylesheet" href="css/style.min.css">
 </head>
 
 <body>
-   <section id="up" gitclass="promo">
+   <section id="up" class="promo">
       <div class="container">
          <header class="header">
             <a href="#" class="header__logo">
@@ -78,7 +79,8 @@
                   так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
             </div>
             <div class="advantages__item">
-               <img src="icons/advantages/heart_icon.png" alt="heart" class="advantages__icon">
+               <img src="icons/advantages/heart_icon.png" alt="heart"
+                  class="advantages__icon advantages__icon_animated">
                <div class="advantages__subtitle">Заботимся о здоровье</div>
                <div class="advantages__descr">Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему
                   здоровью и были в радость Вам и Вашим близким!</div>
@@ -475,8 +477,8 @@
    <section class="feed">
       <div class="container">
          <h2 class="title">отзывы клиентов</h2>
-         <div class="feed__item">
-            <img src="img/feed_1.png" alt="Ирина Иванченко" class="feed__img">
+         <div class="feed__item  animate__animated animate__fadeInUp wow" data-wow-duration=" 2s" data-wow-delay="1s">
+            <img src=" img/feed_1.png" alt="Ирина Иванченко" class="feed__img">
             <div class="feed__text">
                <div class="feed__subtitle">Ирина Иванченко</div>
                <div class="feed__count">2 полумарафона</div>
@@ -490,14 +492,15 @@
                </div>
             </div>
          </div>
-         <div class="feed__item">
+         <div class="feed__item  animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
             <img src="img/feed_2.png" alt="Иван Сёмочкин" class="feed__img">
             <div class="feed__text">
                <div class="feed__subtitle">Иван Сёмочкин</div>
                <div class="feed__count">1 полумарафон</div>
                <div class="feed__descr">Крутая штука-пульсометр. Обычно без них бегал. Оказывается только хуже себе
                   делал.
-                  Купил пульсометр, ещё в подарок получил тренировку. Со мной вместе провели первую тренировку, научили
+                  Купил пульсометр, ещё в подарок получил тренировку. Со мной вместе провели первую тренировку,
+                  научили
                   пользоваться новым гаджетом. Также объяснили основы анатомии, составили план тренировок на месяц
                   вперёд.
                   <br><br>
@@ -505,7 +508,7 @@
                </div>
             </div>
          </div>
-         <div class="feed__item">
+         <div class="feed__item  animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
             <img src="img/feed_3.png" alt="Юлия Дашкина" class="feed__img">
             <div class="feed__text">
                <div class="feed__subtitle">Юлия Дашкина</div>
@@ -515,7 +518,8 @@
                   попробовать.
                   <br><br>
                   Позвонила, ребята поинтересовались моими целями и подобрали очень интересный вариант со скидкой!
-                  Теперь бегаю и наслаждаюсь бегом! Пробежала уже 2 полумарафона и несколько более коротких забегов и не
+                  Теперь бегаю и наслаждаюсь бегом! Пробежала уже 2 полумарафона и несколько более коротких забегов и
+                  не
                   намерена останавливаться!
                   <br><br>
                   Спасибо!!!
@@ -523,6 +527,7 @@
             </div>
          </div>
       </div>
+
    </section>
    <footer class="footer">
       <iframe
@@ -583,6 +588,7 @@
    <script src="js/slick.min.js"></script>
    <script src="js/jquery.validate.min.js"></script>
    <script src="js/jquery.maskedinput.min.js"></script>
+   <script src="js/wow.min.js"></script>
    <script src="js/script.js"></script>
 </body>
 
